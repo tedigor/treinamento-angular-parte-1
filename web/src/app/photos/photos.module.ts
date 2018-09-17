@@ -4,13 +4,16 @@ import { NgModule } from '@angular/core';
 
 import { PhotoComponent } from './photo/photo.component';
 import { PhotosFormComponent } from './photos-form/photos-form.component';
+import { PhotosGridComponent } from './photos-list/photos-grid/photos-grid.component';
 import { PhotosListComponent } from './photos-list/photos-list.component';
+
 
 @NgModule({
     declarations: [
         PhotoComponent,
         PhotosListComponent,
-        PhotosFormComponent
+        PhotosFormComponent,
+        PhotosGridComponent
     ],
     imports: [
         HttpClientModule,
