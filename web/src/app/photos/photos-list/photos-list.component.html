@@ -11,3 +11,8 @@
 </div>
 
 <app-photos-grid [photos]="photos | filterByDescription: filter"></app-photos-grid>
+
+<app-load-button 
+    (click)="load()" 
+    [hasMore]="hasMore">
+</app-load-button>
