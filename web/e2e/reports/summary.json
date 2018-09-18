@@ -1,0 +1,300 @@
+[
+  {
+    "description": "    Realizar testes com diversos cenários",
+    "keyword": "Funcionalidade",
+    "name": "teste inicial do alurapic",
+    "line": 2,
+    "id": "teste-inicial-do-alurapic",
+    "tags": [],
+    "uri": "e2e\\features\\teste-inicial.feature",
+    "elements": [
+      {
+        "id": "teste-inicial-do-alurapic;verificação-de-busca",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "verificação de busca",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 6,
+            "name": "que acessei o link '/user/flavio'",
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1959000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 7,
+            "name": "As fotos serão carregadas",
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 10,
+            "name": "que passei o \"farol\" de busca",
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "serão apresentadas 2 imagens na tela",
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 12,
+            "name": "a descrição das fotos conterá na descrição o \"farol\" passado",
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "teste-inicial-do-alurapic;verificação-de-busca",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "verificação de busca",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 6,
+            "name": "que acessei o link '/user/flavio'",
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 350000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 7,
+            "name": "As fotos serão carregadas",
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 10,
+            "name": "que passei o \"barco\" de busca",
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "serão apresentadas 1 imagens na tela",
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 331000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 12,
+            "name": "a descrição das fotos conterá na descrição o \"barco\" passado",
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "teste-inicial-do-alurapic;verificar-mensagem-de-erro-ao-buscar-uma-descrição-inexistente",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "verificar mensagem de erro ao buscar uma descrição inexistente",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 6,
+            "name": "que acessei o link '/user/flavio'",
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 524000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 7,
+            "name": "As fotos serão carregadas",
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 19,
+            "name": "que passei o parâmetro \"ted\"",
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 20,
+            "name": "aguardei a mensagem de erro",
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 380000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 21,
+            "name": "a mensagem será igual a \"Sorry, no photos\"",
+            "match": {
+              "location": "e2e\\features\\teste-inicial.steps.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
